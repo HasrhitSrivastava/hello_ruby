@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "hello_ruby"
+require "hello_first_ruby"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

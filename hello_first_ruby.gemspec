@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-require_relative "lib/hello_ruby/version"
+require_relative "lib/hello_first_ruby/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "hello_ruby"
-  spec.version = HelloRuby::VERSION
+  spec.name = "hello_first_ruby"
+  spec.version = HelloFirstRuby::VERSION
   spec.authors = ["Harshit  Srivastava"]
   spec.email = ["imharshit.hs@gmail.com"]
 
   spec.summary = "Ruby"
   spec.description = "A simple hello ruby gem"
-  spec.homepage = "https://rubygems.org/gems/hello_ruby"
+  spec.homepage = "https://rubygems.org/gems/hello_first_ruby"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
