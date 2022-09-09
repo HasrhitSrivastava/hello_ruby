@@ -1,11 +1,12 @@
 # frozen_string_literal: true
 
-RSpec.describe HelloRuby do
-  it "has a version number" do
-    expect(HelloRuby::VERSION).not_to be nil
-  end
+require "spec_helper"
+require "hello_ruby"
 
-  it "does something useful" do
-    expect(false).to eq(true)
+RSpec.describe HelloRuby do
+  describe "#hello_ruby" do
+    it "is valid" do
+      expect(described_class.hi).to eq("Hello Ruby...")
+    end
   end
 end

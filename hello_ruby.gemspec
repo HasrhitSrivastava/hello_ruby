@@ -13,8 +13,6 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://rubygems.org/gems/hello_ruby"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
-  spec.files = ["lib/hello_ruby.rb"]
-
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage

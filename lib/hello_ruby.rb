@@ -3,7 +3,9 @@
 require_relative "hello_ruby/version"
 
 class HelloRuby
+  class Error < StandardError; end
+
   def self.hi
-    puts "Hello Ruby..."
+    "Hello Ruby..."
   end
 end
